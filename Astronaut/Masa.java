@@ -12,6 +12,7 @@ public class Masa {
         final double GRAVEDAD_PLUTON = 0.62;
         double masaTierra, pesoMarte, pesoTierra, pesoJupiter, pesoSaturno, pesoPluton;
         do {
+            System.out.println("Hola buenas tardes soy Bogdan");
             System.out.print("Introduce tu masa en kg:");
             Scanner teclado = new Scanner(System.in);
             masaTierra = teclado.nextInt();
